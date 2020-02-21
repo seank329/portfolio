@@ -1,4 +1,7 @@
-import quizApp from './images/quizApp.png'
+import quizApp from './images/quizApp.png';
+import starWars from './images/starWars.png';
+import petful from './images/petful.png';
+import spacedRep from './images/spacedRep';
 
 export default [
 
@@ -13,7 +16,7 @@ export default [
    },
    {
        title: 'Star Wars API Search',
-       imageURL: `/starWars.png`,
+       imageURL: starWars,
        imageAlt: 'Star Wars',
        description: `A front-end allowing users to search the Star Wars API (SWAPI)`,
        techList: 'HTML, CSS, JavaScript, ReactJS',
@@ -22,7 +25,7 @@ export default [
    },
    {
        title: 'Petful',
-       imageURL: `/petful.png`,
+       imageURL: petful,
        imageAlt: 'Petful',
        description: `A mock website for an animal shelter allowing users to adopt animals. Uses queues to implement the adoption process with it's "First-In, First-Out" business model.`,
        techList:'ReactJS, HTML, CSS, JavaScript, NodeJS, ExpressJS',
@@ -31,7 +34,7 @@ export default [
    },
    {
        title: 'German Language with Spaced Repetition',
-       imageURL: `/spacedRep.png`,
+       imageURL: spacedRep,
        imageAlt: 'Spaced Repetition',
        description: `Full-stack implementation of the spaced-repetition language learning technique mimicking flashcards. Guessing correctly or incorrectly changes the position the card reappears in within a linked-list based on its memory value`,
        techList: 'ReactJS, CSS, JavaScript, NodeJS, ExpressJS, PostgreSQL',
