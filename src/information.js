@@ -1,7 +1,7 @@
 import quizApp from './images/quizApp.png';
 import starWars from './images/starWars.png';
 import petful from './images/petful.png';
-import spacedRep from './images/spacedRep';
+import spacedRep from './images/spacedRep.png';
 
 export default [
 
