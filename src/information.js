@@ -36,7 +36,7 @@ export default [
        title: 'German Language with Spaced Repetition',
        imageURL: spacedRep,
        imageAlt: 'Spaced Repetition',
-       description: `Full-stack implementation of the spaced-repetition language learning technique mimicking flashcards. Guessing correctly or incorrectly changes the position the card reappears in within a linked-list based on its memory value`,
+       description: `Full-stack implementation of the spaced-repetition language learning technique mimicking flashcards. Utilizes linked-list data type.`,
        techList: 'ReactJS, CSS, JavaScript, NodeJS, ExpressJS, PostgreSQL',
        linkLive: 'https://spaced-repetition-client.rbannal.now.sh/register',
        linkRepo:'https://github.com/thinkful-ei-heron/spaced-repetition-api-alex-sean, https://github.com/thinkful-ei-heron/spaced-repetition-client-alex-sean'

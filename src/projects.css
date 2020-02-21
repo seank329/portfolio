@@ -33,8 +33,8 @@
     width:80%;
     margin-left: auto;
     margin-right: auto;
-    height:67vh;
-    margin-top:5vh;
+    height:74vh;
+    margin-top:3vh;
 }
 
 @media only screen and (max-width:640px){
@@ -47,18 +47,8 @@
     }
 
     .Projects{
-        /* margin-left:10%;
-        margin-right:10%; */
         flex-direction: column;
         width:100%;
-        height:75vh;
-    }
-
-    .projectImage{
-        position: relative;
-    }
-
-    .projectText{
-
+        height:74vh;
     }
 }

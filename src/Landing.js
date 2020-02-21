@@ -6,7 +6,8 @@ export default function Landing(){
 
     return(
         <div className='Landing'>
-            <p id='intro'>Hello! I'm Sean, a full-stack web developer based out of Washington D.C. .</p>
+            <p id='intro'>Hi! I'm Sean, a full stack developer based out of Washington D.C.</p>
+            <p>..well, close enough to be affected be its traffic</p>
         </div>
     )
 

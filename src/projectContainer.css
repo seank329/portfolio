@@ -5,6 +5,7 @@
     margin-right:5vw;
     display:flex;
     flex-direction: column;
+    font-family: 'Cairo', sans-serif;
 }
 
 .description{
@@ -24,11 +25,15 @@ img{
     height:100%;
 }
 
+a{
+    font-size: 1.5em;
+}
+
 @media only screen and (max-width:640px){
 
     .projectImage{
         width:80vw;
-        margin-left: 6.7%;
+        /* margin-left: 6.7%; */
         margin-right: auto;
     }
 
@@ -37,6 +42,7 @@ img{
         height:65vh;
         margin-bottom: 13vh;
         justify-content: center;
+       
     }
 
     img{
