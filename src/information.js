@@ -1,9 +1,10 @@
+import quizApp from './images/quizApp'
 
 export default [
 
    {
        title: 'Quiz App',
-       imageURL: `/quizApp.png`,
+       imageURL: `${quizApp}`,
        imageAlt:'Quiz App',
        description: `An application designed to test the user's knowledge of country capitals`,
        techList: 'HTML, CSS, JavaScript, jQuery',

@@ -5,7 +5,7 @@ export default function ProjectContainer(props){
 
     return(
         <div className='ProjectContainer'>
-            <div className='projectImage'><img src={require(`${props.image}`)} alt={props.imageAlt}/></div>
+            <div className='projectImage'><img src={props.image} alt={props.imageAlt}/></div>
             <div className='description'>
                 <div className='project_title'><h2>{props.title}</h2></div>
                 <div className='project_description'>{props.description}</div>
