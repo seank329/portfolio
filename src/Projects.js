@@ -22,17 +22,7 @@ export default function Projects(){
                 </ProjectContainer>
                 )
             })}
-            {/* <div className='projectImage'>
-                    Project Image
-            </div>
-            <div className='projectText'>
-                    Project Description
-            </div> */}
-              
         </div>
-            {/* <div className='sidebar'>
-                 Scrollbar
-            </div>  */}
         </div>
     )
 }
