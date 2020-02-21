@@ -6,7 +6,7 @@ export default function About(){
     return(
         <div className='About'>
             <h2>Sean Cooper</h2>
-            <p> I've always loved learning about computers and staying on top of the latest trends in technology. I became a Microsoft
+            <p id='top'> I've always loved learning about computers and staying on top of the latest trends in technology. I became a Microsoft
                 Certified Professional (MCP) during my first year of college, and maintain an active CompTIA A+ certification. 
             </p>
             <p>

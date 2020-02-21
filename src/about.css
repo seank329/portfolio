@@ -24,9 +24,15 @@ h2{
     font-family: 'Noto Sans SC', sans-serif;
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:640px){
 
     .About p{
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
+
+    .About{
+        height:60vh;
+    }
+
+
 }
