@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Route, NavLink } from 'react-router-dom'
 import Landing from './Landing'
+import background from './images/background.png'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -43,7 +44,7 @@ class Home extends Component {
     render() {
 
         return(
-            <div className='Home'>
+            <div className='Home' styles={{backgroundImage:background}}>
                 <nav className='navLinks'>
                     <NavLink className='homeNavLink' to={`/`}>
                         <h3>Home</h3>
