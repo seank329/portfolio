@@ -9,12 +9,9 @@
 }
 
 .projectImage{
-    position: relative;
-    left:5%;
-    top:3.5%;
+    position: relative; 
     width:35vw;
     height:42.4vh;
-    border:1px solid black;
 }
 
 .projectText{
@@ -36,6 +33,8 @@
     height:76vh;
     margin-top:3vh;
 }
+
+
 
 @media only screen and (max-width:725px){
     .ProjectsContainer{

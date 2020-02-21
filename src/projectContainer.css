@@ -29,6 +29,24 @@ a{
     font-size: 1.5em;
 }
 
+@media only screen and (min-width:420px) and (max-width:740px){
+
+    .ProjectContainer{
+        width:80vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .projectImage{
+        width:75vw;
+        justify-content: center;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
+
+
+
 @media only screen and (max-width:640px){
 
     .projectImage{
@@ -43,7 +61,8 @@ a{
         height:65vh;
         margin-bottom: 30vh;
         justify-content: center;
-       
+        margin-left:auto;
+        margin-right:auto;
     }
 
     img{
