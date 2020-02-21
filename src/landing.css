@@ -1,0 +1,15 @@
+#intro{
+    font-family: 'Cairo', sans-serif;
+    font-size: 2em;
+}
+
+@media only screen and (max-width:640px){
+
+    .Landing{
+        padding:2%;
+    }
+
+    #intro{
+        font-size: 1em;
+    }
+}
