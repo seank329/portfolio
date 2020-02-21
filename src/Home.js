@@ -26,7 +26,7 @@ class Home extends Component {
 
     renderRoutes(){
         return(
-            <div>
+            <section>
                 <Route
                     exact
                     path='/'
@@ -44,14 +44,15 @@ class Home extends Component {
                     path='/contact'
                     component={Contact}
                 />
-            </div>
+            </section>
         )
     }
 
     render() {
 
         return(
-            <div className='Home' style={styles.Home}>
+            <main className='Home' style={styles.Home}>
+                <header>
                 <nav className='navLinks'>
                     <NavLink className='homeNavLink' to={`/`}>
                         <h3>Home</h3>
@@ -66,10 +67,11 @@ class Home extends Component {
                         <h3>Contact</h3>
                     </NavLink>       
                 </nav>
-                <main>
+                </header>
+                <section>
                     {this.renderRoutes()}
-                </main>
-            </div>
+                </section>
+            </main>
         )
     }
 }

@@ -36,3 +36,19 @@ h2{
 
 
 }
+
+@media only screen and (max-width:1420px){
+
+    .About p{
+        font-size: 0.7em;
+    }
+
+    .About{
+        height:50vh;
+    }
+
+    h3{
+        border-bottom: 2vh;
+    }
+
+}
