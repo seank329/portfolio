@@ -2,7 +2,7 @@ export default [
 
    {
        title: 'Quiz App',
-       imageURL: `/quizApp.png`,
+       imageURL: `/public/quizApp.png`,
        imageAlt:'Quiz App',
        description: `An application designed to test the user's knowledge of country capitals`,
        techList: 'HTML, CSS, JavaScript, jQuery',
@@ -11,7 +11,7 @@ export default [
    },
    {
        title: 'Star Wars API Search',
-       imageURL: `/starWars.png`,
+       imageURL: `/public/starWars.png`,
        imageAlt: 'Star Wars',
        description: `A front-end allowing users to search the Star Wars API (SWAPI)`,
        techList: 'HTML, CSS, JavaScript, ReactJS',
@@ -20,7 +20,7 @@ export default [
    },
    {
        title: 'Petful',
-       imageURL: `/petful.png`,
+       imageURL: `/public/petful.png`,
        imageAlt: 'Petful',
        description: `A mock website for an animal shelter allowing users to adopt animals. Uses queues to implement the adoption process with it's "First-In, First-Out" business model.`,
        techList:'ReactJS, HTML, CSS, JavaScript, NodeJS, ExpressJS',
@@ -29,7 +29,7 @@ export default [
    },
    {
        title: 'German Language with Spaced Repetition',
-       imageURL: `/spacedRep.png`,
+       imageURL: `/public/spacedRep.png`,
        imageAlt: 'Spaced Repetition',
        description: `Full-stack implementation of the spaced-repetition language learning technique mimicking flashcards. Guessing correctly or incorrectly changes the position the card reappears in within a linked-list based on its memory value`,
        techList: 'ReactJS, CSS, JavaScript, NodeJS, ExpressJS, PostgreSQL',
