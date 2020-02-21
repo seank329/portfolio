@@ -8,14 +8,14 @@
 
 }
 
-/* .projectImage{
+.projectImage{
     position: relative;
     left:5%;
     top:3.5%;
     width:35vw;
     height:42.4vh;
     border:1px solid black;
-} */
+}
 
 .projectText{
     position:relative;
@@ -33,7 +33,7 @@
     width:80%;
     margin-left: auto;
     margin-right: auto;
-    height:74vh;
+    height:76vh;
     margin-top:3vh;
 }
 
