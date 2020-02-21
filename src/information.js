@@ -1,4 +1,4 @@
-import quizApp from './images/quizApp'
+import quizApp from './images/quizApp.png'
 
 export default [
 
