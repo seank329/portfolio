@@ -4,7 +4,7 @@ export default [
 
    {
        title: 'Quiz App',
-       imageURL: `${quizApp}`,
+       imageURL: quizApp,
        imageAlt:'Quiz App',
        description: `An application designed to test the user's knowledge of country capitals`,
        techList: 'HTML, CSS, JavaScript, jQuery',
