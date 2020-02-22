@@ -9,8 +9,8 @@ section{
 }
 
 
-h2{
-    font-family: 'Noto Sans SC', sans-serif;
+h2, .about{
+    font-family: 'Cairo', sans-serif;
 }
 
 
@@ -42,7 +42,7 @@ h2{
     }
 
     .about {
-        font-size: 0.9em;
+        font-size: 0.8em;
         margin-top:1vh;
     }
 
@@ -63,26 +63,30 @@ h2{
         border-bottom: 2vh;
     }
 
-    .about{
+    .about > p{
         font-size: 1.3em;
         margin-top:1vh;
     }
 
 }
 
-@media only screen and(min-width:901px) and (max-width:1421px){
+@media only screen and (min-width:901px) and (max-width:1421px){
 
 
     .About{
-        height:60vh;
+        height:50vh;
     }
 
     h3{
         border-bottom: 2vh;
     }
 
-    .about{
-        font-size: 1.3em;
+    p{
+        font-size: 1.2em;
+    }
+
+    #top{
+        margin-top: 5vh;
     }
 
 }
@@ -97,8 +101,8 @@ h2{
         border-bottom: 2vh;
     }
 
-    .about{
-        font-size: 1.6em;
+    p{
+        font-size: 1.5em;
     }
 
     #top{

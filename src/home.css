@@ -75,3 +75,10 @@ h2{
         width:20vw;
     }
 }
+
+@media only screen and (min-width:901px){
+
+    h3{
+        font-size: 1.5em;
+    }
+}

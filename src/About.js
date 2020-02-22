@@ -6,7 +6,7 @@ export default function About(){
     return(
         <section className='About'>
             <header>
-                <h2>Sean Cooper</h2>
+                <h2>Sean Kamran Cooper</h2>
             </header>
             <article>
                 <p id='top' className='about'> I've always loved learning about computers and staying on top of the latest trends in technology. I became a Microsoft
