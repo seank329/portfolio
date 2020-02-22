@@ -27,7 +27,7 @@ export default [
        title: 'Petful',
        imageURL: petful,
        imageAlt: 'Petful',
-       description: `A mock website for an animal shelter allowing users to adopt animals. Uses queues to implement the adoption process with it's "First-In, First-Out" business model.`,
+       description: `A mock website for an animal shelter allowing users to adopt animals. Queues mimic adoption process with it's "FIFO" business model.`,
        techList:'ReactJS, HTML, CSS, JavaScript, NodeJS, ExpressJS',
        linkLive: 'https://petful-client-sean-andrea.andreabender.now.sh/',
        linkRepo: 'https://github.com/thinkful-ei-heron/Petful-Server-Sean-Andrea, https://github.com/thinkful-ei-heron/Petful-Client-Sean-Andrea'

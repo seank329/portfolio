@@ -1,6 +1,6 @@
 
 .ProjectContainer{
-    width:100%;
+    /* width:100%; */
     height:40vh;
     margin-right:5vw;
     display:flex;
@@ -20,53 +20,151 @@
     margin-top: 1vh;;
 }
 
-img{
-    width:100%;
-    height:100%;
-}
-
 a{
     font-size: 1.5em;
 }
 
-@media only screen and (min-width:420px) and (max-width:740px){
-
+@media only screen and (min-width:300px) and (max-width:410px){
     .ProjectContainer{
-        width:80vw;
+        margin-right: 0;
+        height:70vh;
+        margin-bottom: 10vh;
+    }
+
+    .projectImage{
+        width:83vw;
+    }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
         margin-left:auto;
         margin-right:auto;
     }
 
+}
+
+@media only screen and (min-width:411px) and (max-width:640px){
+
+    .ProjectContainer{
+        margin-right: 0;
+        height:70vh;
+        margin-bottom: 10vh;
+    }
+
     .projectImage{
-        width:75vw;
-        justify-content: center;
+        width:83vw;
+    }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
         margin-left:auto;
-        margin-right: auto;
+        margin-right:auto;
     }
 }
 
 
 
-@media only screen and (max-width:640px){
-
-    .projectImage{
-        width:80vw;
-        height:43vh;
-        margin-left: auto;
-        margin-right: auto;
-    }
+@media only screen and (min-width:641px) and (max-width:800px){
 
     .ProjectContainer{
-        margin:0;
-        height:65vh;
-        margin-bottom: 30vh;
-        justify-content: center;
+        margin-right: 0;
+        height:70vh;
+        margin-bottom: 10vh;
+    }
+
+    .projectImage{
+        width:83vw;
+    }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
         margin-left:auto;
         margin-right:auto;
     }
 
-    img{
-        width:100%;
-        height:100%;
+}
+
+@media only screen and (min-width:801px) and (max-width:1030px){
+    .ProjectContainer{
+        margin-right: 0;
+        height:70vh;
+        margin-bottom: 10vh;
+     }
+
+    .projectImage{
+        width:83vw;
     }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
+
+@media only screen and (min-width:1031px){
+
+    a{
+        font-size: 1em;
+    }
+
+    .projectImage{
+        width:85vw;
+    }
+
+    .description{
+        width:85vw;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .ProjectContainer{
+        width:85vw;
+        margin-right:10vw;
+        margin-left:2vw;
+    }
+
+
 }
