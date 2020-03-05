@@ -14,7 +14,8 @@ export default [
         description:'Recreation of the iconic two-player boardgame, with live-chat, the ability to resume games, and game-history.',
         techList:'ReactJS, HTML, CSS, JavaScript, NodeJS, ExpressJS, Socket.IO, PostgreSQL',
         linkLive:'https://sean-battleship-app.now.sh/',
-        linkRepo:'https://github.com/seank329/Battleship-Client.git, https://github.com/seank329/Battleship-Server.git'
+        linkRepo1:'https://github.com/seank329/Battleship-Client.git', 
+        linkRepo2:'https://github.com/seank329/Battleship-Server.git'
    },
    {
         title: 'Memory Challenge',
@@ -23,7 +24,8 @@ export default [
         description:'Find matching pairs of cards on a randomly sorted gameboard. Multiple difficulty levels, login to save progress',
         techList:'ReactJS, HTML, CSS, JavaScript, NodeJS, ExpressJS, jwt.io (with token expiry), PostgreSQL',
         linkLive:'https://memory-app-sigma.now.sh/',
-        linkRepo:'https://github.com/seank329/Capstone1-UI.git, https://github.com/seank329/Capstone1-Server.git'
+        linkRepo1:'https://github.com/seank329/Capstone1-UI.git', 
+        linkRepo2: 'https://github.com/seank329/Capstone1-Server.git'
    },
    {
        title: 'Petful',
@@ -32,7 +34,8 @@ export default [
        description: `A mock website for an animal shelter allowing users to adopt animals. Queues mimic adoption process with it's "FIFO" business model.`,
        techList:'ReactJS, HTML, CSS, JavaScript, NodeJS, ExpressJS',
        linkLive: 'https://petful-client-sean-andrea.andreabender.now.sh/',
-       linkRepo: 'https://github.com/seank329/Petful-Server.git, https://github.com/seank329/Petful-Client.git'
+       linkRepo1: 'https://github.com/seank329/Petful-Client.git',
+       linkRepo2: 'https://github.com/seank329/Petful-Server.git' 
    },
    {
        title: 'German Language with Spaced Repetition',
@@ -41,7 +44,8 @@ export default [
        description: `Full-stack implementation of the spaced-repetition language learning technique mimicking flashcards. Utilizes linked-list data type.`,
        techList: 'ReactJS, CSS, JavaScript, NodeJS, ExpressJS, PostgreSQL',
        linkLive: 'https://spaced-repetition-client.rbannal.now.sh/register',
-       linkRepo:'https://github.com/seank329/SpacedRepetition-Server.git, https://github.com/seank329/SpacedRepetition-Client.git'
+       linkRepo1: 'https://github.com/seank329/SpacedRepetition-Client.git', 
+       linkRepo2: 'https://github.com/seank329/SpacedRepetition-Server.git'
 
    },
    {
@@ -51,7 +55,7 @@ export default [
         description: `A front-end allowing users to search the Star Wars API (SWAPI)`,
         techList: 'HTML, CSS, JavaScript, ReactJS',
         linkLive: 'https://sean-star-wars-api.now.sh/',
-        linkRepo:'https://github.com/seank329/StarWars-Api.git'
+        linkRepo1:'https://github.com/seank329/StarWars-Api.git'
    },
    {
         title: 'Quiz App',
@@ -60,7 +64,7 @@ export default [
         description: `An application designed to test the user's knowledge of country capitals`,
         techList: 'HTML, CSS, JavaScript, jQuery',
         linkLive: 'https://seank329.github.io/',
-        linkRepo: 'https://github.com/seank329/QuizApp.git'
+        linkRepo1: 'https://github.com/seank329/QuizApp.git'
    }
 
 

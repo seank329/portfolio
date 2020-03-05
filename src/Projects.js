@@ -18,7 +18,8 @@ export default function Projects(){
                                 description={data.description}
                                 tech={data.techList}
                                 linkLive={data.linkLive}
-                                linkRepo={data.linkRepo}>
+                                linkRepo1={data.linkRepo1}
+                                linkRepo2={data.linkRepo2}>
                     </ProjectContainer>
                     )
                 })}
