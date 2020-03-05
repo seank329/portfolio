@@ -5,7 +5,6 @@ import INFO from './information'
 
 export default function Projects(){
 
-    console.log(INFO)
     return(
         <section className='ProjectsContainer'>
             <div className='Projects'>
